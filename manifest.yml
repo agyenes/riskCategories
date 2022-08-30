@@ -1,0 +1,19 @@
+modules:
+  jira:customField:
+    - key: prioritization-custom-field-fogre-test
+      name: Prioritization Custom Field
+      description: Simple Prioritization custom field, to help the issue
+        prioritization. Set the Impact, the Demand and the Effort values to see
+        how you should select your issue priority.
+      type: string
+      readOnly: false
+      function: main
+      edit:
+        function: edit
+  function:
+    - key: main
+      handler: index.runView
+    - key: edit
+      handler: index.runEdit
+app:
+  id: ari:cloud:ecosystem::app/deeaa648-a4a3-452f-84b6-d7f26f948b3e
