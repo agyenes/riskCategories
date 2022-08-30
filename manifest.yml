@@ -1,10 +1,8 @@
 modules:
   jira:customField:
-    - key: prioritization-custom-field-fogre-test
-      name: Prioritization Custom Field
-      description: Simple Prioritization custom field, to help the issue
-        prioritization. Set the Impact, the Demand and the Effort values to see
-        how you should select your issue priority.
+    - key: risk-category
+      name: Risk category
+      description: calculate risk category based on impact and probability as described in the Risk Management Policy.
       type: string
       readOnly: false
       function: main

@@ -1,7 +1,6 @@
-# Prioritization Custom Field Forge 
+# Prioritization Custom Field Forge
 
-This simple Forge app adds a prioritization custom field that you can configure on your issue screens in classic projects.
-The purpose of the app is to demonstrate how to develope quickly serverless applications with Atlassian Forge.
+This simple Forge app adds a risk category custom field that you can configure on your issue screens in classic projects.
 
 ## Requirements
 
@@ -19,16 +18,16 @@ Once you have logged into the CLI (`forge login`), follow the steps below to ins
 
 ## Usage
 
-* Go the the list of custom fields.
-* Find the *Prioritization Custom Field* custom field.
-* Click the *more* menu, and then select *Associate to Screens*.
-* Check the screens you want to use the field on, and then click *Update*.
+- Go the the list of custom fields.
+- Find the _Risk category_ custom field.
+- Click the _more_ menu, and then select _Associate to Screens_.
+- Check the screens you want to use the field on, and then click _Update_.
 
 ## Documentation
 
-The app consists of one custom field defined in the `manifest.yml` file. 
-The custom field's view is implemented by the `renderFieldView` function defined in `/src/index.jsx`. 
-The custom field's editing experience is implemented by the `renderFieldEdit` function defined in `/src/index.jsx`. 
+The app consists of one custom field defined in the `manifest.yml` file.
+The custom field's view is implemented by the `renderFieldView` function defined in `/src/index.jsx`.
+The custom field's editing experience is implemented by the `renderFieldEdit` function defined in `/src/index.jsx`.
 
 ## License
 
